@@ -1,4 +1,19 @@
+#menu {
+    background-color: grey;
+    text-align: center;
+    width: 1024px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url("imgs/background.png");
+}
+
+#start {
+    position: relative;
+    top: 30%;
+}
+
 #wrapping {
+    display: none;
     width:1024px;
     height:600px;
     margin:0 auto;
