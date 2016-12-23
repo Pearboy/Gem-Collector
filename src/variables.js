@@ -1,6 +1,6 @@
 var clicks = 0;
 var clicksPerSecond = 0;
-var gold = 100000;
+var gold = 0;
 
 var miner = {
     count: 0,
