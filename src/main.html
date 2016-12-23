@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title> Gem Collector </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="jquery-3.1.1.min.js"></script>
+        <script src="variables.js"></script>
+        <script src="script.js"></script>
+    </head>
+<body onload="initGame()">
+    <div id="wrapping">
+        <h1 id="title"> Gem Collector </h1>
+
+        <!-- Main Button -->
+        <img id="mineButton" src="imgs/clickInactive.png" onmousedown="increment(this)" onmouseup="release(this)" onmouseout="release(this)">
+
+        <!-- Information display -->
+        <div id="stats">
+            <p> Clicks: <span id="clickCounter"></span>
+            <p> Gold: <span id="goldAmount"></span>
+            <p> Jewels per second: <span id="jewelsPerSecond"></span>
+        </div>
+
+        <!-- Upgrades box -->
+        <div class="upgrades">
+            <p id="upgradeWord"> Upgrades </p>
+            <p> Miner Cost: <span id="minerCost"></span>
+            <button type="button" onClick="minerUpgrade()"> Buy miner </button>
+            <p> Quarry Cost: <span id="quarryCost"></span>
+            <button type="button" onClick="quarryUpgrade()"> Buy quarry </button>
+        </div>
+
+        <!-- Tool upgrades -->
+        <div class="tools">
+            <p> Tools </p>
+            <div id="drill">
+                <p> Drill Cost: <span id="drillCost"></span>
+                <button type="button" onClick="drillTool()"> Buy drill </button>
+            </div>
+        </div>
+    </div>
+    <div id="miners"></div>
+</body>
+</html>

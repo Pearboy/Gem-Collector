@@ -1,0 +1,44 @@
+#wrapping {
+    width:1024px;
+    height:600px;
+    margin:0 auto;
+    text-align: center;
+    background-image: url("imgs/background.png");
+}
+
+#title {
+    text-align: center;
+    color: white;
+}
+
+#mineButton {
+    display: block;
+    margin:0 auto;
+    width: 500px;
+}
+
+#stats {
+    position: absolute;
+    background-color: grey;
+    top: 10%;
+}
+
+.upgrades {
+    position: absolute;
+    top: 10%;
+    right: 18%;
+    background-color: grey;
+}
+
+.tools {
+    position: absolute;
+    background-color: grey;
+}
+
+#drill {
+    display: none;
+}
+
+#miners {
+    text-align: center;
+}
